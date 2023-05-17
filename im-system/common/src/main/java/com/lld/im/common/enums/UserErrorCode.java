@@ -8,6 +8,8 @@ import com.lld.im.common.exception.ApplicationExceptionEnum;
  */
 public enum UserErrorCode implements ApplicationExceptionEnum {
     IMPORT_SIZE_BEYOND(20000,"导入數量超出上限"),
+    USER_IS_NOT_EXIST(20001,"用户不存在"),
+    MODIFY_USER_ERROR(20003,"更新用户失败"),
     ;
 
     private int code;
